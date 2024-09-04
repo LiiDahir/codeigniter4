@@ -1,0 +1,125 @@
+CRITICAL - 2024-09-04 03:49:59 --> ErrorException: include(layouts/menu): Failed to open stream: No such file or directory
+[Method: GET, Route: dashboard/index]
+in APPPATH/Views/pages/dash/layouts/base.php on line 8.
+ 1 APPPATH/Views/pages/dash/layouts/base.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/menu): Failed to open stream: No such file or directory', '/opt/lampp/htdocs/codeigniter4/app/Views/pages/dash/layouts/base.php', 8)
+ 2 APPPATH/Views/pages/dash/layouts/base.php(8): include()
+ 3 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/codeigniter4/app/Views/pages/dash/layouts/base.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('pages/dash/layouts/base', [], true)
+ 6 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('pages/dash/dashboard', [], true)
+ 7 APPPATH/Controllers/Dashboard.php(9): view('pages/dash/dashboard')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 03:52:09 --> ErrorException: include(layouts/menu): Failed to open stream: No such file or directory
+[Method: GET, Route: dashboard/index]
+in APPPATH/Views/pages/dash/layouts/base.php on line 8.
+ 1 APPPATH/Views/pages/dash/layouts/base.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/menu): Failed to open stream: No such file or directory', '/opt/lampp/htdocs/codeigniter4/app/Views/pages/dash/layouts/base.php', 8)
+ 2 APPPATH/Views/pages/dash/layouts/base.php(8): include()
+ 3 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/codeigniter4/app/Views/pages/dash/layouts/base.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('pages/dash/layouts/base', [], true)
+ 6 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('pages/dash/dashboard', [], true)
+ 7 APPPATH/Controllers/Dashboard.php(9): view('pages/dash/dashboard')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 03:52:11 --> ErrorException: include(layouts/menu): Failed to open stream: No such file or directory
+[Method: GET, Route: dashboard/index]
+in APPPATH/Views/pages/dash/layouts/base.php on line 8.
+ 1 APPPATH/Views/pages/dash/layouts/base.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/menu): Failed to open stream: No such file or directory', '/opt/lampp/htdocs/codeigniter4/app/Views/pages/dash/layouts/base.php', 8)
+ 2 APPPATH/Views/pages/dash/layouts/base.php(8): include()
+ 3 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/codeigniter4/app/Views/pages/dash/layouts/base.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('pages/dash/layouts/base', [], true)
+ 6 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('pages/dash/dashboard', [], true)
+ 7 APPPATH/Controllers/Dashboard.php(9): view('pages/dash/dashboard')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 03:52:29 --> ErrorException: include(layouts/menu): Failed to open stream: No such file or directory
+[Method: GET, Route: dashboard/index]
+in APPPATH/Views/pages/dash/layouts/base.php on line 8.
+ 1 APPPATH/Views/pages/dash/layouts/base.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/menu): Failed to open stream: No such file or directory', '/opt/lampp/htdocs/codeigniter4/app/Views/pages/dash/layouts/base.php', 8)
+ 2 APPPATH/Views/pages/dash/layouts/base.php(8): include()
+ 3 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/codeigniter4/app/Views/pages/dash/layouts/base.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('pages/dash/layouts/base', [], true)
+ 6 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('pages/dash/dashboard', [], true)
+ 7 APPPATH/Controllers/Dashboard.php(9): view('pages/dash/dashboard')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 03:52:30 --> ErrorException: include(layouts/menu): Failed to open stream: No such file or directory
+[Method: GET, Route: dashboard/index]
+in APPPATH/Views/pages/dash/layouts/base.php on line 8.
+ 1 APPPATH/Views/pages/dash/layouts/base.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/menu): Failed to open stream: No such file or directory', '/opt/lampp/htdocs/codeigniter4/app/Views/pages/dash/layouts/base.php', 8)
+ 2 APPPATH/Views/pages/dash/layouts/base.php(8): include()
+ 3 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/codeigniter4/app/Views/pages/dash/layouts/base.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('pages/dash/layouts/base', [], true)
+ 6 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('pages/dash/dashboard', [], true)
+ 7 APPPATH/Controllers/Dashboard.php(9): view('pages/dash/dashboard')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 03:52:50 --> ErrorException: include(pages/dash/layouts/menu): Failed to open stream: No such file or directory
+[Method: GET, Route: dashboard/index]
+in APPPATH/Views/pages/dash/layouts/base.php on line 8.
+ 1 APPPATH/Views/pages/dash/layouts/base.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(pages/dash/layouts/menu): Failed to open stream: No such file or directory', '/opt/lampp/htdocs/codeigniter4/app/Views/pages/dash/layouts/base.php', 8)
+ 2 APPPATH/Views/pages/dash/layouts/base.php(8): include()
+ 3 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/codeigniter4/app/Views/pages/dash/layouts/base.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('pages/dash/layouts/base', [], true)
+ 6 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('pages/dash/dashboard', [], true)
+ 7 APPPATH/Controllers/Dashboard.php(9): view('pages/dash/dashboard')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 03:53:55 --> ErrorException: include(layouts/navbar): Failed to open stream: No such file or directory
+[Method: GET, Route: dashboard/index]
+in APPPATH/Views/pages/dash/layouts/base.php on line 15.
+ 1 APPPATH/Views/pages/dash/layouts/base.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(layouts/navbar): Failed to open stream: No such file or directory', '/opt/lampp/htdocs/codeigniter4/app/Views/pages/dash/layouts/base.php', 15)
+ 2 APPPATH/Views/pages/dash/layouts/base.php(15): include()
+ 3 SYSTEMPATH/View/View.php(234): include('/opt/lampp/htdocs/codeigniter4/app/Views/pages/dash/layouts/base.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('pages/dash/layouts/base', [], true)
+ 6 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('pages/dash/dashboard', [], true)
+ 7 APPPATH/Controllers/Dashboard.php(9): view('pages/dash/dashboard')
+ 8 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-04 05:11:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "students/layouts/main.php"
+[Method: GET, Route: /]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 41.
+ 1 SYSTEMPATH/View/View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('students/layouts/main.php')
+ 2 SYSTEMPATH/View/View.php(250): CodeIgniter\View\View->render('students/layouts/main', [], true)
+ 3 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('students/add', [], true)
+ 4 APPPATH/Controllers/StudentsController.php(16): view('students/add')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\StudentsController->create()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
